@@ -1,0 +1,26 @@
+.section-header {
+  font-size: 2.25rem;
+  font-weight: 500;
+  margin: 0;
+
+  & strong {
+    font-weight: 700;
+  }
+
+  &--white {
+    color: white;
+  }
+
+  &--centered {
+    text-align: center;
+  }
+
+  &--b-margin {
+    margin-bottom: 1rem;
+  }
+
+  &--subheader {
+    font-size: 1.125rem;
+    font-weight: 300;
+  }
+}

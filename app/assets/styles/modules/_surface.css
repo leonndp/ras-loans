@@ -1,0 +1,14 @@
+.surface {
+  border-radius: 20px;
+  background-color: #fcfcfc;
+  box-shadow: 3px 3px 15px 1px #ff7f32;
+  padding: 1.25rem;
+
+  &--m-top {
+    margin-top: 50px;
+  }
+
+  &--m-bottom {
+    margin-bottom: 1.2rem;
+  }
+}

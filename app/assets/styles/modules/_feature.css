@@ -1,0 +1,13 @@
+.feature {
+  text-align: center;
+  padding: 1rem;
+
+  &__header {
+    font-size: 1.25rem;
+    font-weight: 700;
+  }
+
+  &__description {
+    margin-bottom: 0;
+  }
+}

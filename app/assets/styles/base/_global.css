@@ -1,0 +1,26 @@
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  font-family: "Montserrat", sans-serif;
+  color: #2391cf;
+}
+
+img {
+  max-width: 100%;
+  height: auto;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+p {
+  line-height: 1.5;
+}
+
+a,
+a:visited {
+  text-decoration: none;
+}

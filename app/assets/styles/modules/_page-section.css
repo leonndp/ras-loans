@@ -1,0 +1,56 @@
+.page-section {
+  padding: 4.5rem 0;
+  position: relative;
+
+  @mixin atMedium {
+    padding: 4.5rem 0;
+  }
+
+  &__curved-border {
+    position: absolute;
+    z-index: -3;
+    width: 100%;
+    /* transform: translateX(-50%); */
+    margin: -150px 0;
+    height: 500px;
+    background-color: #583390;
+    overflow: hidden;
+
+    @mixin atMedium {
+      height: 400px;
+      border-radius: 0 0 70% 70%;
+    }
+  }
+
+  &--no-t-padding {
+    padding-top: 0;
+  }
+
+  &--no-b-padding-until-medium {
+    padding-bottom: 0;
+
+    @mixin atMedium {
+      padding-bottom: 4.5em;
+    }
+  }
+
+  &--no-b-padding-until-large {
+    padding-bottom: 0;
+
+    @mixin atLarge {
+      padding-bottom: 4.5em;
+    }
+  }
+
+  &--orange {
+    background-color: #ff7f32;
+  }
+
+  &--purple {
+    background-color: #583390;
+  }
+
+  &--off-white {
+    background-color: #e5e5e5;
+  }
+}
